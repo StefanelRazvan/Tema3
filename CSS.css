@@ -1,0 +1,128 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+	background-color: #F5F5F5;
+}
+.header .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header .logo {
+  padding-top: 50px;
+  padding-right: 60px;
+  padding-left: 100px;
+}
+.header .nav a {
+  font-size: 20px;
+  padding-right: 90px;
+  text-decoration: none;
+  color: #000000;
+  font-style: italic;
+}
+.home {
+  background: url("https://www.phonerevive.fr/sites/3059d720/files/116008798_s.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.logoText {
+  padding: 220px 0 0 120px;
+  font-style: italic;
+}
+p {
+  padding: 0 170px;
+  text-indent: 80px;
+  font-size: 21px;
+}
+footer{
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	background-color: #F5F5F5;
+}
+h2{
+	text-align: center;
+	color: red;
+}
+* {
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: 'Cabin', sans-serif;
+}
+
+
+
+.parallax-effect-container {
+  height: 800px;;
+  overflow: hidden;
+  display: block;
+  background: black;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  position: relative;
+	
+}
+.parallax-effect-content {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  top: 50%;
+  left: 0;
+  padding: 16px;
+  width: 100%;
+  transform-style: flat;
+  transform: translate3d(-50,-50%,0);
+}
+.parallax-effect-image {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-attachment: fixed;
+  opacity: .7;
+}
+
+.text-center {
+
+  font-size: 30px;
+  text-shadow: 1px 1px 1px blue;
+  padding-top: 100px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;
+  padding-left: 170px;
+  font-style: italic;
+  max-width: 100%;
+}
+
+.invert {
+  color: white;
+	
+	
+}
+
+.parallax-container {
+  position: relative;
+	text-align: center;
+	padding-bottom: 400px;
+	
+}
+
+.parallax-container img {
+  position: absolute;
+  top: 0;
+ text-align: center;
+ width: 600px;
+	
+  
+}
